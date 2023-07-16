@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_jalaali_jalaali,jalaali.jalaali,model_jalaali_jalaali,base.group_user,1,1,1,1
+access_hr_work_place_manager,hr.work.place,model_hr_work_place,hr.group_hr_manager,1,1,1,1
+access_hr_work_place_system,hr.work.place,model_hr_work_place,base.group_system,1,1,1,1
+access_hr_work_place_user,hr.work.place,model_hr_work_place,base.group_user,1,0,0,0
